@@ -5,8 +5,8 @@ int main() {
     string k = "";
     const int ten = 10;
     float k_value;
-    
-    
+
+
     while (true) {
         cin >> k;
         if (k == "magnetic induction B (Tl)" or k == "magnetic induction B" or k == "magnetic induction" or k == "B" or k == "b") {
@@ -31,6 +31,6 @@ int main() {
             cout << "\n\nChoose what you want to transform into a SGSE from SI: \nmagnetic induction B, \nlength l, \npressure P.\n\n";
         }
     }
-    
+
     return 0;
 }
